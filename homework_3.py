@@ -39,6 +39,6 @@ for name, surname in zip(names, surnames):
     print(name, surname)
 
 numbers = [1, 2, 4, 6, 7]
-print(list(map(lambda x, y: x**2, numbers)))
+print(list(map(lambda x: x ** 2, numbers)))
 # print(map()) возвращают объекты map и filter
 # print(filter())
